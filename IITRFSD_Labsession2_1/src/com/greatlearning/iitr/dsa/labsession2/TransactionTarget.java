@@ -11,7 +11,7 @@ public class TransactionTarget {
 
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the size of transaction array");
-		int size=sc.nextInt();			// size the number of total transactions that will be completed
+		int size=sc.nextInt();			// Enter the total transactions that will be completed
 		int i;
 		int trans[]=new int[size];
 
@@ -22,7 +22,7 @@ public class TransactionTarget {
 		}
 
 		System.out.println("Enter the number of Targets");
-		int targets=sc.nextInt();			// targets: these are the values of totals that sum of transactions must be equal to or more  
+		int targets=sc.nextInt();			//Sum of total amount of targets which user want to achieve  
 		int flag;
 		for(i=1;i<=targets;i++)
 		{
